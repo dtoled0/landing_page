@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* Layout & Specific Styling */
+.header { 
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    padding: 36px;
+    gap: 48px;
+    justify-content: center;
+}
+
+.hero-text {
+    width: 400px;
+    margin-right: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup {
+    padding: 5px;
+    width: 100px;
+    margin-top: 1em;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.features {
+    padding: 100px;
+    text-align: center;
+}
+
+.some-info {
+    padding: 16px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.card {
+    width: 160px;
+}
+
+.card-image {
+    border: 3px solid #3882f6;
+    border-radius: 5%;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    font-weight: light;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+}
+
+.quote-author {
+    font-size: 25px;
+    align-self: flex-end;
+}
+
+.cta-container {
+    margin: 100px;
+}
+
+.cta {
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: #e5e7eb;
+    padding: 60px 0;
+}
+
+
+.cta-signup {
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    padding: 10px 30px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 30px 0;
+}
